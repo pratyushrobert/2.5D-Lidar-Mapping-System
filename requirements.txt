@@ -1,0 +1,18 @@
+numpy>=2.0.0
+scipy>=1.11.0
+pyqtgraph>=0.13.0
+PyOpenGL>=3.1.0
+matplotlib>=3.8.0
+tqdm>=4.66.0
+
+# GUI framework - PyQt6 required for Python 3.14+ compatibility
+PyQt6>=6.6.0
+
+# Optional: Deep learning inference (PyTorch 2.14+ supports Python 3.14)
+torch>=2.5.0; python_version >= "3.14"
+
+# Optional: 3D visualization backend
+vispy>=0.14.0
+
+# Note: open3d does not yet provide Python 3.14 wheels
+# open3d>=0.18.0; python_version < "3.14"
